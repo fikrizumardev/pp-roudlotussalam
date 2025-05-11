@@ -44,11 +44,11 @@
             </button>
         </div>
         <div class="flex flex-col items-start space-y-4 px-6 py-4">
-            <a href="#" class="text-green-600 font-medium hover:text-green-600">Beranda</a>
-            <a href="#" class="text-gray-600 hover:text-green-600">Profil</a>
-            <a href="#" class="text-gray-600 hover:text-green-600">Program</a>
+            <a href="{{ route('front.homepage') }}" class="text-green-600 font-medium hover:text-green-600">Beranda</a>
+            <a href="{{ route('front.about') }}" class="text-gray-600 hover:text-green-600">Profil</a>
+            <a href="{{ route('front.articles') }}" class="text-gray-600 hover:text-green-600">Artikel</a>
+            <a href="#" class="text-gray-600 hover:text-green-600">Donasi</a>
             <a href="#" class="text-gray-600 hover:text-green-600">Fasilitas</a>
-            <a href="#" class="text-gray-600 hover:text-green-600">Artikel</a>
             <a href="#" class="text-gray-600 hover:text-green-600">Kontak</a>
             <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition duration-300">Login</a>
         </div>
