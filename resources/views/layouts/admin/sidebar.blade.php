@@ -12,23 +12,23 @@
                 </a>
                 <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
                     <i class="fas fa-users mr-3"></i>
-                    Users
+                    Data Santri
                 </a>
                 <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
-                    <i class="fas fa-box mr-3"></i>
-                    Products
+                    <i class="fas fa-newspaper mr-3"></i>
+                    Artikel
                 </a>
                 <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
-                    <i class="fas fa-shopping-cart mr-3"></i>
-                    Orders
+                    <i class="fas fa-donate mr-3"></i>
+                    Program Donasi
                 </a>
                 <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
-                    <i class="fas fa-chart-line mr-3"></i>
-                    Analytics
+                    <i class="fas fa-list mr-3"></i>
+                    Inventaris Aset
                 </a>
                 <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
                     <i class="fas fa-cog mr-3"></i>
-                    Settings
+                    Pengaturan
                 </a>
             </nav>
             <div class="mt-auto pb-4">
