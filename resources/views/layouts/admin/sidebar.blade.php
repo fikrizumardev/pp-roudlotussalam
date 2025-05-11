@@ -23,6 +23,10 @@
                     Program Donasi
                 </a>
                 <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
+                    <i class="fas fa-file-alt mr-3"></i>
+                    Rekap Keuangan
+                </a>
+                <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
                     <i class="fas fa-list mr-3"></i>
                     Inventaris Aset
                 </a>

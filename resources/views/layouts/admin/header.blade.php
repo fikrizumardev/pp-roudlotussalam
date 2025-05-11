@@ -8,12 +8,12 @@
             <h1 class="ml-4 text-xl font-semibold text-gray-800">Dashboard</h1>
         </div>
         <div class="flex items-center space-x-4">
-            <button class="text-gray-500 focus:outline-none">
+            {{-- <button class="text-gray-500 focus:outline-none">
                 <i class="fas fa-bell text-xl"></i>
             </button>
             <button class="text-gray-500 focus:outline-none">
                 <i class="fas fa-envelope text-xl"></i>
-            </button>
+            </button> --}}
             <div class="relative">
                 <button class="flex items-center focus:outline-none">
                     <img class="w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/1.jpg" alt="User">
