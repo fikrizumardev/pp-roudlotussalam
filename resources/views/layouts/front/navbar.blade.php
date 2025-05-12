@@ -19,8 +19,8 @@
                 <a href="{{ route('front.articles') }}" class="text-gray-600 hover:text-green-600">Artikel</a>
                 <a href="#" class="text-gray-600 hover:text-green-600">Donasi</a>
                 <a href="#" class="text-gray-600 hover:text-green-600">Fasilitas</a>
-                <a href="#" class="text-gray-600 hover:text-green-600">Kontak</a>
-                <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition duration-300">Login</a>
+                <a href="{{ route('front.contact') }}" class="text-gray-600 hover:text-green-600">Kontak</a>
+                <a href="{{ route('login') }}" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition duration-300">Login</a>
             </div>
             
             <!-- Mobile Menu Button -->
@@ -49,8 +49,8 @@
             <a href="{{ route('front.articles') }}" class="text-gray-600 hover:text-green-600">Artikel</a>
             <a href="#" class="text-gray-600 hover:text-green-600">Donasi</a>
             <a href="#" class="text-gray-600 hover:text-green-600">Fasilitas</a>
-            <a href="#" class="text-gray-600 hover:text-green-600">Kontak</a>
-            <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition duration-300">Login</a>
+            <a href="{{ route('front.contact') }}" class="text-gray-600 hover:text-green-600">Kontak</a>
+            <a href="{{ route('login') }}" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition duration-300">Login</a>
         </div>
     </div>
 </nav>
