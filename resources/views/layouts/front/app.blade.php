@@ -22,14 +22,24 @@
     <body class="font-sans antialiased bg-gray-50">
         <x-banner />
 
-        <div class="min-h-screen bg-gray-100">
+        @hasSection('content')
             @include('layouts.front.navbar')
-            <!-- Page Content -->
+
             <main>
-                {{ $slot }}
+                @yield('content')
             </main>
+
             @include('layouts.front.footer')
-        </div>
+        @else
+            {{-- Fallback untuk komponen Livewire --}}
+            @include('layouts.front.navbar')
+
+            <main>
+                {{ $slot ?? '' }}
+            </main>
+
+            @include('layouts.front.footer')
+        @endif
 
         @stack('modals')
 
