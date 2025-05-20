@@ -6,7 +6,7 @@
         </div>
         <div class="flex flex-col flex-grow px-4 py-4 overflow-y-auto">
             <nav class="flex-1 space-y-2">
-                <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg bg-green-700 text-white">
+                <a href="{{ route('admin.dashboard') }}" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg bg-green-700 text-white">
                     <i class="fas fa-tachometer-alt mr-3"></i>
                     Dashboard
                 </a>
@@ -14,7 +14,7 @@
                     <i class="fas fa-users mr-3"></i>
                     Data Santri
                 </a>
-                <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
+                <a href="{{ route('admin.article.index') }}" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
                     <i class="fas fa-newspaper mr-3"></i>
                     Artikel
                 </a>
@@ -29,6 +29,10 @@
                 <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
                     <i class="fas fa-list mr-3"></i>
                     Inventaris Aset
+                </a>
+                <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
+                    <i class="fas fa-users mr-3"></i>
+                    Manajemen User
                 </a>
                 <a href="#" class="flex items-center px-4 py-2 text-sm font-medium rounded-lg text-green-200 hover:bg-green-700 hover:text-white">
                     <i class="fas fa-cog mr-3"></i>

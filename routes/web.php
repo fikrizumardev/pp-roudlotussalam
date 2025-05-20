@@ -13,6 +13,12 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ])
+->prefix('admin')
+->name('admin.')
 ->group(function () {
     Route::get('/dashboard', \App\Livewire\Admin\Dashboard::class)->name('dashboard');
+
+    // Article
+    Route::get('/articles', \App\Livewire\Admin\Article\Index::class)->name('article.index');
+    Route::get('/article/create', \App\Livewire\Admin\Article\Create::class)->name('article.create');
 });
