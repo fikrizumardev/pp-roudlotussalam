@@ -47,7 +47,10 @@ class Create extends BaseComponent
             $article->title = $this->title;
             $article->slug = Str::slug($this->title);
             $article->content = $this->content;
-            $article->cover_path = $this->cover_path;
+
+            $coverPath = $this->cover_path->storeAs('articles', Str::uuid() . '.' . $this->cover_path->getClientOriginalExtension() , 'public');
+
+            $article->cover_path = $coverPath;
             $article->author_id = $this->user->id;
             $article->status = $this->status;
             $article->published_at = Carbon::now();
@@ -55,7 +58,7 @@ class Create extends BaseComponent
 
             DB::commit();
 
-            $this->alertWithRedirect('Article created successfully', 'success', route('article.index'), 'top-end');
+            $this->alertWithRedirect('Article created successfully', 'success', route('admin.article.index'), 'top-end');
 
         } 
         catch (\Throwable $th) 
